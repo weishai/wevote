@@ -1,5 +1,6 @@
 #app{
   height: 100%;
+  background-color: #fcfcfc;
 }
 
 html, body {
@@ -7,5 +8,28 @@ html, body {
 }
 
 .page{
+  overflow: hidden;
+}
 
+/* VoteAdd */
+.voteadd-btn-addopt{
+  margin-left: 15px;
+  margin-top: .77em;
+  margin-bottom: .3em;
+}
+
+.voteadd-btn-delopt{
+  margin-left: .6em;
+}
+
+.voteadd-btn-submit{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* VoteView */
+.voteview-cell-title{
+  color: #333;
+    font-size: 16px;
+    padding: 10px 0 4px;
 }

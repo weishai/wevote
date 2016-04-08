@@ -6,7 +6,7 @@ import {
   IconMsg,
   IconArticle,
   IconCell
-} from 'react-weui';
+} from 'react-weui'
 import {
   Tab,
   TabBody,
@@ -29,7 +29,9 @@ class App extends Component {
 
     return (
         <Tab>
-          <div className="page">{children}</div>
+          <TabBody>
+            <div className="page">{children}</div>
+          </TabBody>
           <TabBar>
               <TabBarItem
                   active={this.state.tab == 0}

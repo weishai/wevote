@@ -8,7 +8,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin'
 
 // import * as reducers from './reducers'
 import App from './containers/App'
-import {VoteView} from './components'
+import {VoteAdd, VoteView} from './components'
 
 const reducer = combineReducers({
   // ...reducers,
