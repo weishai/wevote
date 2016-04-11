@@ -8,7 +8,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin'
 
 // import * as reducers from './reducers'
 import App from './containers/App'
-import {VoteAdd, VoteView} from './components'
+import {VoteAdd, VoteView, VoteResult} from './components'
 
 const reducer = combineReducers({
   // ...reducers,
@@ -28,7 +28,7 @@ render(
   <Provider store={store}>
     <Router history={history}>
       <Route path="/" component={App}>
-        <IndexRoute component={VoteView} />
+        <IndexRoute component={VoteAdd} />
       </Route>
     </Router>
   </Provider>,
